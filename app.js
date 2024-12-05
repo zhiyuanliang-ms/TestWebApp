@@ -13,7 +13,7 @@ const server = http.createServer((req, res) => {
   `);
 });
 
-var port = normalizePort(process.env.PORT || '3000');
+var port = normalizePort(process.env.PORT || '8080');
 
 server.listen(port);
 
