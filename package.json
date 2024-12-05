@@ -1,0 +1,19 @@
+{
+  "name": "helloworld",
+  "description": "Simple hello world sample in Node",
+  "version": "1.0.0",
+  "private": true,
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "author": "Google LLC",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "http": "^0.0.1-security"
+  }
+}
